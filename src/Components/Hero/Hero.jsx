@@ -21,18 +21,16 @@ function Hero() {
             { /*middle side */}
 
             <div className={css.wrapper}>
-                <div className={css.blueCircle}>
-                    <img src={HeroImg} alt="" width={600} />
-                    <div className={css.cart2}>
-                        <RiShoppingBagFill />
-                        <div className={css.signup}>
-                            <span>Best Signup offer</span>
-                            <div>
-                                <BsArrowRight />
-                            </div>
+                <div className={css.blueCircle}></div>
+                <img src={HeroImg} alt="" width={600} />
+                <div className={css.cart2}>
+                    <RiShoppingBagFill />
+                    <div className={css.signup}>
+                        <span>Best Signup offer</span>
+                        <div>
+                            <BsArrowRight />
                         </div>
                     </div>
-
                 </div>
             </div>
             { /*right side */}
