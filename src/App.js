@@ -4,6 +4,7 @@ import Hero from "./Components/Hero/Hero"
 import Slider from "./Components/Slider/Slider"
 import Virtual from "./Components/Virtual/Virtual"
 import Product from "./Components/Product/Product"
+import Testimonials from "./Components/Testimonials/Testimonials"
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
        <Slider/> 
        <Virtual/>
        <Product/>
+       <Testimonials/>
     </div>
   );
 }
